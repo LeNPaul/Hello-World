@@ -1,5 +1,0 @@
-05/01/2015, Fortinos, 12.30, Groceries
-06/01/2015, Tim Hortins, 1.30, Eating Out
-09/01/2015, Metro, Pot Luck Food, 9.75, Eating Out
-10/01/2015, Dollarama, Hand Soap, 1.70, Necessity
-10/01/2015, Nations, Groceries, 27.53, Groceries
