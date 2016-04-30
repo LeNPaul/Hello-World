@@ -10,6 +10,12 @@ The following is an index of some of the code included in this repository:
 
 The final project in a scientific computing class. The program was a 2-d simulation of the rings of Saturn, which was developed in a Unix environment in C. In order to visually display the simulation, PGPlot must be installed.
 
+###deltaHacks2016
+
+For McMaster deltaHacks 2016
+
+The idea for our build was an Android app that could track when a person has woken up, using the accelerometer on the Android phone. The app would then send a signal through Bluetooth to an Arduino microcontroller that controled a motor that would turn on a coffeemaker.
+
 ###Snake Clone
 
 A clone of the classic snake game written in Python, which uses the Pygame library to display graphics.
