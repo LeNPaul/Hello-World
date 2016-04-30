@@ -6,14 +6,14 @@ As of now I am focusing on building physics simulations, and doing web developme
 
 The following is an index of some of the code included in this repository:
 
-##Scientific Computing Project 
+###Scientific Computing Project 
 
 The final project in a scientific computing class. The program was a 2-d simulation of the rings of Saturn, which was developed in a Unix environment in C. In order to visually display the simulation, PGPlot must be installed.
 
-##Snake Clone
+###Snake Clone
 
 A clone of the classic snake game written in Python, which uses the Pygame library to display graphics.
 
-##Project Euler
+###Project Euler
 
 My solutions for the problems in Project Euler
