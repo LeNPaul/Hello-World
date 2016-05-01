@@ -244,5 +244,7 @@ def gameLoop():
     pygame.quit()
     quit()
 
+#Calling game functions
+
 game_intro()
 gameLoop()
