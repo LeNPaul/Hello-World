@@ -1,5 +1,10 @@
 import matplotlib as plt
 import csv
+import Tkinter
+
+top = Tkinter.Tk()
+# Code to add widgets will go here...
+top.mainloop()
 
 #Notes: add each input to list, refer to list index for line; monthly, total, categories (monthly, total), daily
 
