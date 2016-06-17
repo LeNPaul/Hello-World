@@ -51,6 +51,10 @@ h4 {
   color: grey;
 }
 
+#story {
+  padding-top: 50px;
+}
+
 .project-text {
   text-align: justify;
 }
@@ -63,6 +67,11 @@ h4 {
 
 .projects {
   height: 100vh;
+  width: 100%;
+}
+
+.contact {
+  height: 75vh;
   width: 100%;
 }
 
