@@ -14,9 +14,10 @@ paginate:            5
 
 # About/contact
 author:
-  name:              Paul Le
-  url:               https://twitter.com/paululele
-  email:             l.nguyen.paul@gmail.com
+  name:              "Paul Le"
+  url:               "https://twitter.com/paululele"
+  email:             "l.nguyen.paul@gmail.com"
+  twitter:           "paululele"
 
 # Custom vars
-version:             1.0.0
+share-url:           "https://www.thathungrymind.com"

@@ -67,3 +67,31 @@
 	background-color: #0073a4;
   color: white;
 }
+
+.fa-facebook {
+	padding:10px 11px 8px 11px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-facebook:hover {
+	background-color: #3d5b99;
+  color: white;
+}
+
+.fa-google-plus {
+	padding:10px 11px 8px 11px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	transition: .5s;
+}
+
+.fa-google-plus:hover {
+	background-color: #e64a41;
+  color: white;
+}
