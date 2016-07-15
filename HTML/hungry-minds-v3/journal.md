@@ -14,7 +14,7 @@ title: Journal
 
     <span class="post-date">{{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
 
-    {{ post.content }}
+    <p>{{ post.content | strip_html | truncate: 250 }} <a href="{{ post.url }}">Read more</a></p>
   </div>
   {% endfor %}
 </div>

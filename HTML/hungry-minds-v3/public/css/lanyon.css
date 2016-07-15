@@ -41,7 +41,7 @@ body {
 }
 
 html {
-  font-family: font-family: 'Quattrocento Sans', sans-serif; /*"Helvetica Neue", Helvetica, Arial, sans-serif; "PT Serif", Georgia, "Times New Roman", serif;*/
+  font-family: 'Crimson Text', serif; /*"Helvetica Neue", Helvetica, Arial, sans-serif; "PT Serif", Georgia, "Times New Roman", serif;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -168,6 +168,11 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: normal;
   color: #333;/*#fff;*/
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
 }
 .sidebar-item {
   padding: 1rem;
