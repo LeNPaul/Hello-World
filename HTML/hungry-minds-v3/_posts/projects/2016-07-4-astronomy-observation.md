@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Processing Astronomical Images From an Observatory"
-categories: journal
+categories: projects
 modified: 2016-06-12T16:28:11-04:00
 tags: [physics]
 comments: true

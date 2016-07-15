@@ -7,8 +7,8 @@ layout: default
   <span class="post-date">{{ page.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
   {{ content }}
   <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url={{ site.share-url }}{{ page.url }}&amp;via={{ site.author.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="padding:10px;"></i></a>
-  <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-facebook" aria-hidden="true" style="padding:10px;"></i></a>
-  <a href="https://twitter.com/paululele" target="_blank"><i class="fa fa-google-plus" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.share-url }}{{ page.url }}&amp;title={{ page.title }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="https://plus.google.com/share?url={{ site.share-url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true" style="padding:10px;"></i></a>
 </div>
 
 <div class="related">
