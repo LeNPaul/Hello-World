@@ -129,6 +129,16 @@ ul {
 }
 
 /*
+ * SVG icons
+ *
+ * Styling the SVG icons
+ */
+
+.icon {
+  width: 50px;
+}
+
+/*
  * Footer
  *
  * Simple footer that includes website information and social media icons.

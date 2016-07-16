@@ -1,0 +1,6 @@
+{% if page.image.feature %}
+<div class="page-image">
+  <img src="{{ site.url }}/images/{{ page.image.feature }}">
+  {% if page.image.credit %}{% include image-credit.html %}{% endif %}
+</div>
+{% endif %}
