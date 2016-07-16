@@ -3,7 +3,7 @@ layout: post
 title: "How Exoplanets are Discovered"
 categories: projects
 modified: 2016-06-12T16:28:11-04:00
-tags: [physics]
+tags: [physics,projects]
 comments: true
 read_time: true
 featured: true
