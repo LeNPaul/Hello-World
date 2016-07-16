@@ -52,6 +52,10 @@ h1, h2, h3, h4, h5, h6 {
   /*letter-spacing: -.025rem;*/
 }
 
+ul {
+  list-style-type: none;
+}
+
 /*
  * Wrapper
  *
@@ -137,6 +141,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
+.site-footer i{
+  color: #999;
+}
+
 /*
  * Tags
  *
@@ -144,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .tag-box {
+  font-family: 'Quattrocento Sans', sans-serif;
   list-style: none;
   margin: 0;
   padding: 4px 0;
@@ -182,6 +191,22 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: super;
   font-size: 10px;
   font-size: 0.625rem;
+}
+
+ul.posts {
+  font-family: 'Quattrocento Sans', sans-serif;
+  list-style-type: none;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+ul.posts li {
+  padding: 0.2rem 0;
+}
+
+ul.posts li span {
+  color: #9a9a9a;
+  font-size: 0.75rem;
 }
 
 /*

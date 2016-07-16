@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Archive
+title:
 ---
-<ul>
+<ul class="posts">
   {% for post in site.posts %}
 
     {% unless post.next %}
@@ -15,6 +15,10 @@ title: Archive
       {% endif %}
     {% endunless %}
 
-    <li>{{ post.date | date:"%b %d" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <li itemscope>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
+    </li>
+
   {% endfor %}
 </ul>
