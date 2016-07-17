@@ -9,7 +9,7 @@ tagline:             "my brain food"
 description:         "thathungrymind | my brain food"
 url:                 #http://lanyon.getpoole.com
 baseurl:             #''
-gems:                [jekyll-paginate,related-posts]
+gems:                [jekyll-paginate]
 paginate:            5
 
 # About/contact

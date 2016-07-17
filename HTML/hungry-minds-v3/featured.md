@@ -3,18 +3,22 @@ layout: page
 title: Featured
 ---
 
-{% assign featured_posts = (site.posts|where:"featured","true") %}
-{% for post in featured_posts limit:4 %}
-<div class="related">
-<ul class="related-posts">
-<li>
-  <h3>
-  <a href="{{ site.baseurl }}{{ post.url }}">
-    {{ post.title }}
-    <small>{{ post.date | date_to_string }}</small>
-  </a>
-  </h3>
-</li>
-</ul>
+<div class="posts">
+  {% assign featured_posts = (site.posts|where:"featured","true") %}
+  {% for post in featured_posts limit:4 %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <!--<span class="post-date">{{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>-->
+
+    <p>{{ post.content | strip_html | truncate: 300 }} <a href="{{ post.url }}">Read more</a>
+    <span class="post-date" style="margin:0px"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+    </p>
+
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}

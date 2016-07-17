@@ -4,7 +4,7 @@ title: "Why I Love Reading"
 subtitle: "There are many health benefits of reading, but that is not why I read"
 categories: journal
 modified: 2016-06-12T16:28:11-04:00
-tags: [personal,education]
+tags: [personal,programming,projects]
 comments: true
 read_time: true
 featured: true

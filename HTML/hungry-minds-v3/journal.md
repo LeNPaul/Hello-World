@@ -2,7 +2,6 @@
 layout: page
 title: Journal
 ---
-
 <div class="posts">
   {% for post in site.categories.journal %}
   <div class="post">
@@ -12,26 +11,12 @@ title: Journal
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+    <!--<span class="post-date">{{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>-->
 
-    <p>{{ post.content | strip_html | truncate: 250 }} <a href="{{ post.url }}">Read more</a></p>
+    <p>{{ post.content | strip_html | truncate: 300 }} <a href="{{ post.url }}">Read more</a>
+    <span class="post-date" style="margin:0px"><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
+    </p>
+
   </div>
   {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>

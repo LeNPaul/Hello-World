@@ -2,7 +2,7 @@
 layout: post
 title: What's Jekyll?
 categories: journal
-tags: [personal]
+tags: [personal,programming]
 ---
 
 I don’t intend the exploration of typography for my site’s redesign to be an argument for or against sans-serif fonts vs serif fonts. I think they both serve their purposes. As the quote above indicates, it really doesn’t matter which font combination you use, as long as the reader is able to focus on the message you are trying to convey.
