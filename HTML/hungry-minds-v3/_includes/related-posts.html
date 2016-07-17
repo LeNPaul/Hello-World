@@ -13,3 +13,22 @@
     {% endfor %}
   </ul>
 </div>
+
+<div class="related">
+  <h2>Related post</h2>
+  <ul class="related-posts">
+    {% assign listed_posts_urls = page.url | split: ' ' %}
+      {% for tag in page.tags %}
+        {% for mypost in site.tags[tag] %}
+          {% if listed_posts_urls contains mypost.url %}
+          {% else %}
+          <h3>
+            <a href="{{ mypost.url }}">{{ mypost.title }}</a>
+            {{ post.date | date: '%Y' }}
+          </h3>
+          {% assign listed_posts_urls = listed_posts_urls | push: mypost.url %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+  </ul>
+</div>

@@ -5,8 +5,8 @@ permalink:           none
 
 # Setup
 title:               "thathungrymind"
-tagline:             'my brain food'
-description:         'thathungrymind | my brain food'
+tagline:             "my brain food"
+description:         "thathungrymind | my brain food"
 url:                 #http://lanyon.getpoole.com
 baseurl:             #''
 gems:                [jekyll-paginate]
