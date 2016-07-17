@@ -77,7 +77,8 @@ ul {
  */
 
 .container {
-  width: 43%;
+  width: 50%;
+  /*width: 43%;*/
   max-width: 28rem;
 }
 @media (min-width: 38em) {
@@ -137,6 +138,39 @@ ul {
 .icon {
   width: 50px;
 }
+
+/*
+ * Featured image
+ *
+ * Styling featured image in posts
+ */
+
+.page-image {
+	position: relative;
+	margin-left: -1 * $gutter;
+	margin-right: -1 * $gutter;
+}
+
+.image-credit {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		margin: 0 auto;
+		padding: 5px 10px;
+		background-color: black;
+    opacity: 0.5;
+		color: white;
+		font-family: 'Quattrocento Sans', sans-serif;
+		font-size: 0.75rem;
+		text-align: right;
+		z-index: 10;
+  }
+
+.image-credit a {
+			color: white;
+			text-decoration: none;
+		}
+
 
 /*
  * Footer

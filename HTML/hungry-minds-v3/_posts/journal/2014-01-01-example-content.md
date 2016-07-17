@@ -2,6 +2,7 @@
 layout: post
 title: Example content
 categories: journal
+tag: [personal]
 ---
 
 

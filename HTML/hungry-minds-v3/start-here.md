@@ -10,3 +10,13 @@ This is my personal website, where I write about things that interest me. The jo
 For a chronological list of all of my posts, check out the <a href="{{ site.baseurl }}/archive.html">archive page</a>.
 
 For a list of all of my posts organized by topics, check out the <a href="{{ site.baseurl }}/tags.html">tags page</a>.
+
+<h1>
+  <a href="{{ site.baseurl }}/featured.html">Featured</a>
+</h1>
+<h1>
+  <a href="{{ site.baseurl }}/archive.html">Archive</a>
+</h1>
+<h1>
+  <a href="{{ site.baseurl }}/tags.html">By Topic</a>
+</h1>
