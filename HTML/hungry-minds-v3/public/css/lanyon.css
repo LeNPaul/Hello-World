@@ -189,6 +189,19 @@ ul {
   color: #999;
 }
 
+.site-footer a{
+  color: #999;
+  -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+.site-footer:hover a{
+  color: #268bd2;
+}
+
 /*
  * Tags
  *
