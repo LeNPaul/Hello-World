@@ -4,10 +4,6 @@ title: "Processing Astronomical Images From an Observatory"
 categories: projects
 modified: 2016-06-12T16:28:11-04:00
 tags: [physics]
-comments: true
-read_time: true
-featured: false
-ads: false
 image:
   feature: hubble.jpg
   teaser: hubble-teaser.jpg

@@ -112,15 +112,6 @@ ul {
 }
 .masthead-title a {
   color: #505050;
-  -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-}
-
-.masthead-title:hover a{
-  color: #268bd2;
 }
 
 .masthead-title small {
@@ -147,6 +138,18 @@ ul {
 
 .icon {
   width: 50px;
+}
+
+.blue-hover {
+-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+
+.blue-hover:hover {
+color: #268bd2;
 }
 
 /*

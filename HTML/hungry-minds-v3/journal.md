@@ -3,7 +3,7 @@ layout: page
 title: Journal
 ---
 <div class="posts">
-  {% for post in site.categories.journal %}
+  {% for post in site.categories.journal limit:4 %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
@@ -20,3 +20,7 @@ title: Journal
   </div>
   {% endfor %}
 </div>
+
+<h3>
+  <a href="#">More Posts</a>
+</h3>

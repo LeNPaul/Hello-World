@@ -17,11 +17,14 @@ I love to learn, and believe online learning is the future of education. You can
 You can find me around the web below (feel free to tweet at me!):
 
 <ul style="display: inline;">
-  <a href="mailto:l.nguyen.paul@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true" style="padding:10px;"></i></a>
-  <a href="https://twitter.com/paululele"><i class="fa fa-twitter fa-2x" aria-hidden="true" style="padding:10px;"></i></a>
-  <a href="https://instagram.com/paululele"><i class="fa fa-instagram fa-2x" aria-hidden="true" style="padding:10px;"></i></a>
-  <a href="https://linkedin.com/in/lenpaul"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true" style="padding:10px;"></i></a>
-  <a href="https://github.com/lenpaul"><i class="fa fa-github-square fa-2x" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="mailto:l.nguyen.paul@gmail.com"><i class="fa fa-envelope" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="https://twitter.com/paululele"><i class="fa fa-twitter" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="https://instagram.com/paululele"><i class="fa fa-instagram" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="https://linkedin.com/in/lenpaul"><i class="fa fa-linkedin" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="https://github.com/lenpaul"><i class="fa fa-github" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="#"><i class="fa fa-pinterest" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="#"><i class="fa fa-medium" aria-hidden="true" style="padding:10px;"></i></a>
+  <a href="#"><i class="fa fa-codepen" aria-hidden="true" style="padding:10px;"></i></a>
 </ul>
 
 I started this website as a way to give back to people, and help other people learn. Below, you can find an archive of all the posts that I have written:
