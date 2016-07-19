@@ -8,6 +8,8 @@ title: About
   {% if page.image.credit %}{% include image-credit.html %}{% endif %}
 </div>
 
+#### Champions are made when no one is looking
+
 #### Hi there! I'm Paul
 
 I am a recent university graduate in physics, and I love to learn. I spend my time reading, programming, and learning whatever comes across my way that interests me. You can see some of the things I'm working on over at <a href="https://github.com/LeNPaul">GitHub</a> and <a href="http://codepen.io/LeNPaul/">Codepen</a>, which I also talk about in <a href="{{ site.url }}/projects/">Projects</a>. You can find me over at <a href="https://www.quora.com/profile/Paul-Le-2">Quora</a>, where I typically answer questions on physics, programming, personal development, and productivity. I also run a blog on self-improvement on Quora, <a href="https://hungryminds.quora.com/">Hungry Minds</a>.

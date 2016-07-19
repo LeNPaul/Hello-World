@@ -5,6 +5,10 @@ categories: journal
 tags: [programming]
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mthtn1X4eUY" frameborder="0" allowfullscreen></iframe>
+
+<a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/paululele/timelines/755079130027352064">New Collection</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The Baton Rouge gunman was a Marine who served in Iraq <a href="https://t.co/RHVAKTN2OV">https://t.co/RHVAKTN2OV</a> <a href="https://t.co/sjfJb43GYs">pic.twitter.com/sjfJb43GYs</a></p>&mdash; The New York Times (@nytimes) <a href="https://twitter.com/nytimes/status/754938789240397824">July 18, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
