@@ -10,7 +10,7 @@
             <h3>
               <a href="{{ mypost.url }}">
                 {{ mypost.title }}
-                <small>{{ mypost.date | date_to_string }}</small>
+                <small>{{ mypost.date | date: "%B %-d, %Y" }}</small>
               </a>
             </h3>
           </li>

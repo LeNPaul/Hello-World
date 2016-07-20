@@ -28,7 +28,7 @@ title:
 
       <li itemscope>
         <a href="{{ post.url }}">{{ post.title }}</a>
-        <p><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
+        <p><span><i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %-d, %Y" }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span></p>
       </li>
 
       {% endif %}{% endfor %}
