@@ -5,6 +5,13 @@ categories: journal
 tags: [programming]
 ---
 
+<a href="https://www.goodreads.com/book/show/1202.Freakonomics" style="float: left; padding-right: 20px"><img border="0" alt="Freakonomics: A Rogue Economist Explores the Hidden Side of Everything (Freakonomics, #1)" src="https://d.gr-assets.com/books/1327909092m/1202.jpg" /></a><a href="https://www.goodreads.com/book/show/1202.Freakonomics">Freakonomics: A Rogue Economist Explores the Hidden Side of Everything</a> by <a href="https://www.goodreads.com/author/show/798.Steven_D_Levitt">Steven D. Levitt</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/1656734836">3 of 5 stars</a><br /><br />
+
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/54220411-paul-le">View all my reviews</a>
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mthtn1X4eUY" frameborder="0" allowfullscreen></iframe>
 
 <a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/paululele/timelines/755079130027352064">New Collection</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
