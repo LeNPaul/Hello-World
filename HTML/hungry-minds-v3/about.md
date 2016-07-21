@@ -8,9 +8,7 @@ title: About
   {% if page.image.credit %}{% include image-credit.html %}{% endif %}
 </div>
 
-#### Champions are made when no one is looking
-
-#### Hi there! I'm Paul
+Hi there! I'm Paul
 
 I am a recent university graduate in physics, and I love to learn. I spend my time reading, programming, and learning whatever comes across my way that interests me. You can see some of the things I'm working on over at <a href="https://github.com/LeNPaul">GitHub</a> and <a href="http://codepen.io/LeNPaul/">Codepen</a>, which I also talk about in <a href="{{ site.url }}/projects/">Projects</a>. You can find me over at <a href="https://www.quora.com/profile/Paul-Le-2">Quora</a>, where I typically answer questions on physics, programming, personal development, and productivity. I also run a blog on self-improvement on Quora, <a href="https://hungryminds.quora.com/">Hungry Minds</a>.
 
@@ -30,29 +28,3 @@ You can find me around the web below (feel free to tweet at me!):
 </ul>
 
 I started this website as a way to give back to people, and help other people learn. Below, you can find an archive of all the posts that I have written:
-
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
-
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
