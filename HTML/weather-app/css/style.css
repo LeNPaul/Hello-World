@@ -1,0 +1,18 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #FF5C5C;
+}
+
+.header {
+  margin: 5% 20%;
+  text-align: center;
+  color: white;/*#333;*/
+}
+
+.icon {
+  width: 20%;
+  margin: 0px;
+  padding: 0px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
