@@ -6,7 +6,27 @@ body {
 .header {
   margin: 10% 20%;
   text-align: center;
-  color: white;/*#333;*/
+  color: white;
+}
+
+#temp {
+  cursor: pointer;
+  margin: auto;
+  width: 6rem;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
+
+#temp:hover {
+  color: #999;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
 }
 
 .icon {
