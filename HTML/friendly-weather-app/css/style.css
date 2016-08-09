@@ -22,3 +22,7 @@ body {
 #temp:hover {
   color: #999;
 }
+
+.location {
+  text-align: center;
+}
