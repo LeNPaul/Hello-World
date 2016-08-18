@@ -1,0 +1,55 @@
+body {
+  font-family: Montserrat, Roboto, sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;  
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 10rem;
+}
+
+.title {
+  margin-top: 3rem;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.block {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;  
+  bottom: 0rem;
+}
+
+.block:hover {
+  -webkit-filter: opacity(.75);
+  filter: opacity(.75);
+  bottom: 1rem;
+}
+
+.block-offline {
+  -webkit-filter: opacity(.5);
+  filter: opacity(.5);  
+}
