@@ -1,0 +1,23 @@
+.header {
+  background-color: white;
+  margin: 0rem;
+  padding: 1rem;
+  height: 6rem;
+}
+
+.menu {
+  padding: 1rem;
+  margin: 0rem;
+  text-align: right;
+  float: right;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+}
+
+.wrap {
+  margin: auto;
+  width: 50rem;
+}
