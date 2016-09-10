@@ -1,0 +1,75 @@
+.container {
+  text-align: center;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  margin-top: 5%;
+  font-size: 5rem;
+}
+
+#seven {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#four {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#one {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#eight {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#five {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#two {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#zero {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#nine {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#six {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#three {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#decimal {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+#equal {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+h1 {
+  margin-bottom: 5rem;
+  font-weight: bold;
+  font-size: 8rem;
+}
