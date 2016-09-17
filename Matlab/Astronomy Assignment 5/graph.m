@@ -1,0 +1,46 @@
+function graph
+
+hold on
+
+M = dlmread('M07.txt')	
+x = M(:,3)
+set(gca, 'XDir', 'reverse')
+y = M(:,2)
+%plot(x(36),y(36),'r.','MarkerSize',20)
+%plot(x(51),y(51),'b.','MarkerSize',20)
+%plot(x(66),y(66),'c.','MarkerSize',20)
+%plot(x(78),y(78),'m.','MarkerSize',20)
+%legend('10 Mill','100 Mill','1 Bill','10 Bill')
+plot(x,y,'m','Linewidth',2)
+
+M = dlmread('M10.txt')
+x = M(:,3)
+set(gca, 'XDir', 'reverse')
+y = M(:,2)
+plot(x,y,'c','Linewidth',2)
+%plot(x(36),y(36),'ro','MarkerSize',10)
+%plot(x(51),y(51),'bo','MarkerSize',10)
+%plot(x(68),y(68),'ko','MarkerSize',10)
+%plot(x(134),y(134),'mo','MarkerSize',10)
+
+M = dlmread('M15.txt')
+x = M(:,3)
+set(gca, 'XDir', 'reverse')
+y = M(:,2)
+plot(x,y,'b','Linewidth',2)
+%plot(x(42),y(42),'ro','MarkerSize',10)
+%plot(x(68),y(68),'bo','MarkerSize',10)
+%plot(x(83),y(83),'ko','MarkerSize',10)
+
+M = dlmread('M30.txt')
+x = M(:,3)
+set(gca, 'XDir', 'reverse')
+y = M(:,2)
+plot(x,y,'g','Linewidth',2)
+%plot(x(61),y(61),'ro','MarkerSize',10)
+%plot(x(73),y(73),'bo','MarkerSize',10)
+
+title('HR Diagram')
+xlabel('log(Teff)')
+ylabel('Log(L/L Sun)')
+legend()
