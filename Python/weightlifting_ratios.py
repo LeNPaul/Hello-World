@@ -1,7 +1,10 @@
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
+from matplotlib import cm
+import numpy as np
 
+#https://pythonprogramming.net/matplotlib-3d-scatterplot-tutorial/
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -121,6 +124,7 @@ z =[0.8780487805,
 ]
 
 ax.scatter(x, y, z, c='r', marker='o')
+#ax.plot_trisurf(x, y, z, cmap=cm.jet, linewidth=0.2)
 
 ax.set_xlabel('Snatch')
 ax.set_ylabel('Clean & Jerk')
