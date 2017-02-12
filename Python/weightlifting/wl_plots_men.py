@@ -6,14 +6,14 @@ import wl_data as data
 #   http://stackoverflow.com/questions/22408237/named-colors-in-matplotlib
 #   http://matplotlib.org/api/markers_api.html
 
-plt.scatter(data.x105pm,data.y105pm, marker='o', s=50, c='dodgerblue', edgecolor='none')
-plt.scatter(data.x105m,data.y105m, marker='o', s=50, c='darkorchid', edgecolor='none')
-plt.scatter(data.x94m,data.y94m, marker='o', s=50, c='crimson', edgecolor='none')
-plt.scatter(data.x85m,data.y85m, marker='o', s=50, c='mediumseagreen', edgecolor='none')
-plt.scatter(data.x77m,data.y77m, marker='o', s=50, c='orangered', edgecolor='none')
-plt.scatter(data.x69m,data.y69m, marker='o', s=50, c='darkturquoise', edgecolor='none')
-plt.scatter(data.x62m,data.y62m, marker='o', s=50, c='steelblue', edgecolor='none')
-plt.scatter(data.x56m,data.y56m, marker='o', s=50, c='salmon', edgecolor='none')
+plt.scatter(data.x105pm,data.y105pm, marker='o', s=50, c='slategrey', edgecolor='none')
+plt.scatter(data.x105m,data.y105m, marker='o', s=50, c='crimson', edgecolor='none')
+plt.scatter(data.x94m,data.y94m, marker='o', s=50, c='mediumseagreen', edgecolor='none')
+plt.scatter(data.x85m,data.y85m, marker='o', s=50, c='dodgerblue', edgecolor='none')
+plt.scatter(data.x77m,data.y77m, marker='o', s=50, c='salmon', edgecolor='none')
+plt.scatter(data.x69m,data.y69m, marker='o', s=50, c='darkorchid', edgecolor='none')
+plt.scatter(data.x62m,data.y62m, marker='o', s=50, c='sienna', edgecolor='none')
+plt.scatter(data.x56m,data.y56m, marker='o', s=50, c='orangered', edgecolor='none')
 
 '''
 plt.scatter(data.x75pf,data.y75pf, marker='^', s=50, c='dodgerblue', edgecolor='none')

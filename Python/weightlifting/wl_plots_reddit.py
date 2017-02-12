@@ -123,9 +123,9 @@ z =[0.8780487805,
 0.900621118
 ]
 
-ax.scatter(x, y, z, c='r', marker='o')
-#ax.plot_trisurf(x, y, z, cmap=cm.jet, linewidth=0.2)
+ax.scatter(x, y, z, c='steelblue', s=50, marker='o', edgecolor='none')
 
+ax.set_title("Weightlifting Ratios")
 ax.set_xlabel('Snatch')
 ax.set_ylabel('Clean & Jerk')
 ax.set_zlabel('FS/BS')
