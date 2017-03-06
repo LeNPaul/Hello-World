@@ -25,10 +25,10 @@ plt.scatter(data.x53f,data.y53f, marker='^', s=50, c='darkturquoise', edgecolor=
 plt.scatter(data.x48f,data.y48f, marker='^', s=50, c='steelblue', edgecolor='none')
 '''
 
-plt.legend([ '105+' , '105' , '94' , '85' , '77' , '69' , '62' , '56' ], loc=4)
+plt.legend([ '105+' , '105' , '94' , '85' , '77' , '69' , '62' , '56' ], loc=4, title="Weightclass (Kg)")
 #plt.legend([ '105+' , '105' , '94' , '85' , '77' , '69' , '62' , '56',  '75+' , '75' , '69' , '63' , '58' , '53' , '48' ], loc=4)
 
-plt.title('Snatch to Clean & Jerk Ratio of 2012 London Olympic Weightlifters')
+plt.title('Snatch to Clean & Jerk Ratio of 2012 London Male Olympic Weightlifters')
 plt.xlabel('Snatch (Kg)')
 plt.ylabel('Clean & Jerk (Kg)')
 
