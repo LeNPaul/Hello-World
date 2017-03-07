@@ -50,10 +50,11 @@ for weight, colour in enumerate(class_colours):
 plt.legend(loc=4, title="Weightclass (Kg)")
 
 plt.title('Total to Bodyweight Ratio of Male Olympic Weightlifters (2000 - 2016)')
+plt.yscale('log')
 plt.xlabel('Bodyweight (Kg)')
 plt.ylabel('Total (Kg)')
 
-coefficients = np.polyfit(x_data, y_data, 3)
+coefficients = np.polyfit(x_data, y_data, 1) #before: 3
 polynomial = np.poly1d(coefficients)
 x_data.sort()
 ys = polynomial(x_data)

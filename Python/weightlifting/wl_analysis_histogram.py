@@ -36,7 +36,7 @@ bin_size = np.arange(min(x_data), max(x_data) + binwidth, binwidth)
 
 y_hist, bin_edges = y_hist,binEdges=np.histogram(data,bins=bin_size)
 
-y_hist = y_hist[27:107]
+y_hist = y_hist[27:105]
 
 x_hist = np.arange(len(y_hist))/(2 * np.pi)
 fourier = rfft(y_hist)/len(y_hist)
