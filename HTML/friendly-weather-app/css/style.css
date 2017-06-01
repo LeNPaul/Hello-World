@@ -1,0 +1,28 @@
+body {
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  font-family: Oswald, sans-serif;
+  margin: 5%;
+  color: #333;
+}
+
+#icon {
+  width: 50%;
+  margin-bottom: 5rem;
+  text-align: center;
+  -webkit-filter: opacity(.8);
+  filter: opacity(.8);
+}
+
+#temp {
+  text-align: center;
+  font-size: 15vw;
+  cursor: pointer;
+}
+
+#temp:hover {
+  color: #999;
+}
+
+.location {
+  text-align: center;
+}
