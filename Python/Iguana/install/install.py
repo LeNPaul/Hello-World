@@ -24,4 +24,3 @@ for x in iguanas:
 
         os.rename('/home/centos/iguana-' + x + '/iguana_service', '/home/centos/iguana-' + x + '/iguana_service_' + x)
         os.rename('/home/centos/iguana-' + x + '/iguana_service.hdf', '/home/centos/iguana-' + x + '/iguana_service_' + x + '.hdf')
-        os.system('cd ~/iguana-' + x + '; ./iguana_service_' + x)
