@@ -20,6 +20,10 @@ The idea for our build was an Android app that could track when a person has wok
 
 A clone of the classic snake game written in Python, which uses the Pygame library to display graphics.
 
+### chessAI
+
+Attempt at creating a chess game engine.
+
 ### Project Euler
 
 My solutions for the problems in Project Euler
