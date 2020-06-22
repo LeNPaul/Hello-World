@@ -1,6 +1,6 @@
 # Hello World!
 
-A repository with code that I write while learning how to program. It is meant as a reference that I can refer to later if I need a refresher on anything, as well as a place to put code that doesn't quite warrant an entire repository. In addition, there might be something here that others may find useful.
+The purpose of this repository is to serve as a catch-all for all of the code that I write while learning how to program. It is meant as a reference that I can refer to later if I need a refresher on anything, as well as a place to put code that doesn't quite warrant an entire repository. In addition, there might be something here that others may find useful.
 
 As of now I am focusing on building physics simulations, and doing web development.
 
